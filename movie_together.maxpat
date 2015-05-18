@@ -29,6 +29,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ 16 ],
+					"bgcolor" : [ 0.379253, 0.379315, 0.379237, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "bpatcher",
+					"name" : "movie_chooser.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.868408, 350.5, 381.131592, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.868408, 350.5, 377.631592, 23.0 ],
+					"varname" : "movie_choose_7[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 15 ],
 					"bgcolor" : [ 0.379253, 0.379315, 0.379237, 1.0 ],
 					"id" : "obj-3",
@@ -36,7 +52,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 350.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 342.5, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 309.5, 377.631592, 23.0 ],
 					"varname" : "movie_choose_7[1]"
@@ -52,7 +68,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 330.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 322.5, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 289.5, 377.631592, 23.0 ],
 					"varname" : "movie_choose_6[1]"
@@ -68,7 +84,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 309.0, 381.131592, 22.0 ],
+					"patching_rect" : [ 54.868408, 301.5, 381.131592, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 269.5, 377.631592, 22.0 ],
 					"varname" : "movie_choose_5[1]"
@@ -84,7 +100,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 288.0, 381.131592, 22.0 ],
+					"patching_rect" : [ 54.868408, 280.5, 381.131592, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 250.5, 377.631592, 21.0 ],
 					"varname" : "movie_choose_4[1]"
@@ -100,7 +116,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 268.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 260.5, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 231.5, 377.631592, 24.0 ],
 					"varname" : "movie_choose_3[1]"
@@ -116,7 +132,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 249.5, 381.131592, 19.5 ],
+					"patching_rect" : [ 54.868408, 242.0, 381.131592, 19.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 212.0, 377.631592, 24.5 ],
 					"varname" : "movie_choose_2[1]"
@@ -132,7 +148,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.868408, 229.5, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 222.0, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 192.0, 377.631592, 22.0 ],
 					"varname" : "movie_choose_1[1]"
@@ -326,14 +342,14 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-27",
-					"items" : [ "01 fade in", ",", "01b breathings", ",", "02 Fulls", ",", "03 Pianitos", ",", "04 gradients full", ",", "05 Gradients Tormenta", ",", "Papers" ],
+					"items" : [ "01_Esqueletos", ",", "02_Lineas", ",", "03_Cubos" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 518.5, 456.0, 100.0, 20.0 ],
-					"prefix" : "750:/Projects/Hercules/Patch/footage/Act 1/",
+					"prefix" : "750:/Projects/Hercules/Patch/footage/00_Masks/",
 					"presentation" : 1,
 					"presentation_rect" : [ 116.868408, 11.0, 140.0, 20.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -376,7 +392,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-2",
-					"items" : [ "Act 1", ",", "Act 2", ",", "Act 3", ",", "test" ],
+					"items" : [ "00_Masks", ",", "01_Act 1", ",", "02_Act 2", ",", "test" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -400,7 +416,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 335.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 176.0, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 151.5, 377.631592, 23.0 ],
 					"varname" : "movie_choose_7"
@@ -416,7 +432,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 356.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 197.0, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.868408, 172.0, 375.631592, 24.0 ],
 					"varname" : "movie_choose_8"
@@ -432,7 +448,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 315.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 156.0, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 131.5, 377.631592, 23.0 ],
 					"varname" : "movie_choose_6"
@@ -448,7 +464,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 294.0, 381.131592, 22.0 ],
+					"patching_rect" : [ 54.868408, 135.0, 381.131592, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 111.5, 377.631592, 22.0 ],
 					"varname" : "movie_choose_5"
@@ -464,7 +480,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 273.0, 381.131592, 22.0 ],
+					"patching_rect" : [ 54.868408, 114.0, 381.131592, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 91.5, 377.631592, 21.0 ],
 					"varname" : "movie_choose_4"
@@ -480,7 +496,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 253.0, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 94.0, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 71.5, 377.631592, 27.0 ],
 					"varname" : "movie_choose_3"
@@ -496,7 +512,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 234.5, 381.131592, 19.5 ],
+					"patching_rect" : [ 54.868408, 75.5, 381.131592, 19.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 52.0, 377.631592, 23.5 ],
 					"varname" : "movie_choose_2"
@@ -512,7 +528,7 @@
 					"name" : "movie_chooser.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.868408, 214.5, 381.131592, 21.0 ],
+					"patching_rect" : [ 54.868408, 55.5, 381.131592, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.868408, 32.0, 377.631592, 22.0 ],
 					"varname" : "movie_choose_1"
