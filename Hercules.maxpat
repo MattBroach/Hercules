@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1960.0, 425.0, 1212.0, 478.0 ],
+		"rect" : [ 212.0, 385.0, 1212.0, 478.0 ],
 		"bgcolor" : [ 0.475352, 0.475429, 0.475332, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,119 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 769.0, 113.5, 89.0, 20.0 ],
+					"text" : "s servernames"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.913725, 0.913725, 0.913725, 0.0 ],
+					"fgcolor" : [ 0.786037, 0.453223, 0.185077, 1.0 ],
+					"id" : "obj-152",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patching_rect" : [ 769.0, 76.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1083.0, 37.5, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-146",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1526.0, 485.0, 100.0, 20.0 ],
+					"text" : "zmap 0 127 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-145",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1526.0, 378.5, 100.0, 20.0 ],
+					"text" : "zmap 0 127 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-144",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1526.0, 281.5, 100.0, 20.0 ],
+					"text" : "zmap 0 127 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-143",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1526.0, 461.0, 62.0, 20.0 ],
+					"text" : "ctlin a 3 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-131",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1526.0, 352.0, 62.0, 20.0 ],
+					"text" : "ctlin a 2 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-117",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1526.0, 258.0, 62.0, 20.0 ],
+					"text" : "ctlin a 1 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -321,7 +434,7 @@
 					"name" : "kinect.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 745.460571, 152.5, 855.0, 117.0 ],
+					"patching_rect" : [ 757.785645, 152.5, 519.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 749.118408, 191.0, 453.0, 178.0 ]
 				}
@@ -1640,7 +1753,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 15, 8, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_8.jpg" ],
+					"args" : [ 15, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_8.jpg" ],
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -1654,7 +1767,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 14, 7, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_7.jpg" ],
+					"args" : [ 14, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_7.jpg" ],
 					"id" : "obj-9",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -1668,7 +1781,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 13, 6, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_6.jpg" ],
+					"args" : [ 13, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_6.jpg" ],
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -1682,7 +1795,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 12, 3, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_5.jpg" ],
+					"args" : [ 12, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_5.jpg" ],
 					"id" : "obj-14",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -1696,7 +1809,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 11, 2, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_4.jpg" ],
+					"args" : [ 11, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_4.jpg" ],
 					"id" : "obj-17",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -1710,7 +1823,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 10, 1, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_3.jpg" ],
+					"args" : [ 10, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_3.jpg" ],
 					"id" : "obj-18",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -2659,6 +2772,34 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 351.0, 468.0, 87.0, 20.0 ],
+									"text" : "r servernames"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 709.0, 541.0, 87.0, 20.0 ],
+									"text" : "r servernames"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-22",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -3351,6 +3492,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 718.5, 568.0, 614.5, 568.0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3374,6 +3525,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 360.5, 495.0, 268.5, 495.0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -4215,7 +4376,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 8, 9, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_1.jpg" ],
+					"args" : [ 8, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/03_Cubos/Cubo_1.jpg" ],
 					"id" : "obj-235",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -4229,7 +4390,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 7, 8, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/02_Lineas/02_Linea.jpg" ],
+					"args" : [ 7, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/02_Lineas/02_Linea.jpg" ],
 					"id" : "obj-236",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -4243,7 +4404,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 6, 7, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_6.jpg" ],
+					"args" : [ 6, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_6.jpg" ],
 					"id" : "obj-232",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -4251,13 +4412,13 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 494.052429, 731.5, 458.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.468018, 160.5, 362.5, 20.0 ]
+					"presentation_rect" : [ 13.457886, 160.5, 362.5, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 5, 6, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_5.jpg" ],
+					"args" : [ 5, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_5.jpg" ],
 					"id" : "obj-233",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -4271,7 +4432,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 4, 3, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_4.jpg" ],
+					"args" : [ 4, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_4.jpg" ],
 					"id" : "obj-234",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -4285,7 +4446,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 3, 2, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_3.jpg" ],
+					"args" : [ 3, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_3.jpg" ],
 					"id" : "obj-231",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -4299,7 +4460,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2, 1, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_2.jpg" ],
+					"args" : [ 2, 0, "/Volumes/750/Projects/Hercules/Patch/footage/00_Masks/01_Esqueletos/Esqueleto_2.jpg" ],
 					"id" : "obj-230",
 					"maxclass" : "bpatcher",
 					"name" : "masker.maxpat",
@@ -7576,15 +7737,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 					{
-						"movie_together" : 0,
-						"movie_together::movie_choose_7[2]::movie_choose_7[2]" : 0,
-						"movie_together::movie_choose_7[2]::u368000722" : 0,
-						"movie_together::movie_choose_7[2]::clip" : 0,
-						"movie_together::movie_choose_7[2]::folder" : 0,
-						"movie_together::movie_choose_7[2]::movie" : 0
-					}
-,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-39",
@@ -7619,7 +7771,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u762000738"
+					"varname" : "u102004583"
 				}
 
 			}
@@ -7956,6 +8108,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7969,6 +8130,51 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-145", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-131", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-143", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-144", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-145", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-146", 0 ]
 				}
 
 			}
@@ -8146,6 +8352,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-151", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-152", 0 ]
 				}
 
 			}
